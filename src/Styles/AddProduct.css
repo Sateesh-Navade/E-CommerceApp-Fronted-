@@ -1,0 +1,36 @@
+.addproducts form{
+    display: grid;
+    grid-template-columns: 220px 220px;
+    box-shadow: 0px 0px 12px gray;
+    padding: 15px 50px;
+    border-radius: 10px;
+    font-family: cursive;
+    color: rgb(48, 132, 206);
+}
+
+.addproducts {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 88vh;
+    background-image: url("https://imgs.search.brave.com/IDpbvWKlCj4wxUUDUFKJNZZtSJvB_UR9ziVFNtSCCg0/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9pbWd2/My5mb3Rvci5jb20v/aW1hZ2VzL2dhbGxl/cnkvZmVhdHVyZS1i/YWNrZ3JvdW5kLWdh/bGxlcnktd29vZC02/LmpwZw");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.addproducts input,label{
+    margin: 10px 0px;
+    border: none;
+} 
+
+.addproducts input{
+    outline: none;
+    border-bottom: 2px solid rgb(126, 123, 110);
+    background-color: rgb(56, 43, 22);
+    /* background: transparent; */
+    cursor: grab;
+    color: aliceblue;
+    outline: none;
+    /* border-bottom: 2px solid rgb(248, 247, 247); */
+    padding: 2px;
+}

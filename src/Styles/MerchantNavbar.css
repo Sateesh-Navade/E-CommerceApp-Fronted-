@@ -1,0 +1,26 @@
+
+#navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(192, 165, 106);
+    height: 80px;
+    padding: 0px 50px;
+}
+
+#navbar h1{
+    color: rgb(162, 120, 66);
+    text-shadow: 0px 0px 6px rgb(243, 218, 116);
+}
+
+#navbar span{
+    color: beige;
+}
+
+#navbar a{
+   
+    margin-left: 50px;
+    color: black;
+    text-decoration: none;
+}
+

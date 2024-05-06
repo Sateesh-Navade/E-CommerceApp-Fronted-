@@ -1,0 +1,77 @@
+/* .merchantsignup form{
+    display: grid;
+    grid-template-columns: 200px 200px;
+    box-shadow: 0px 0px 10px gray;
+    padding: 15px 50px;
+    border-radius: 10px;
+    font-family: cursive;
+}
+.merchantsignup{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.merchantsignup input,label{
+    margin: 10px 0px;
+    border: none;
+}
+.merchantsignup input{
+    outline: none;
+    border-bottom: 2px solid black;
+} */
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.merchantsignup {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 88vh;
+    background-image: url("https://imgs.search.brave.com/Cn0T4D5JNm1Gm6rjlkXjuvAcL38qcdOOoT4iaXoSBls/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9wbHVz/LnVuc3BsYXNoLmNv/bS9wcmVtaXVtX3Bo/b3RvLTE2ODYyMDgy/MTg1NTEtNjRjNDI0/M2NjZDJmP3E9ODAm/dz0xMDAwJmF1dG89/Zm9ybWF0JmZpdD1j/cm9wJml4bGliPXJi/LTQuMC4zJml4aWQ9/TTN3eE1qQTNmREI4/TUh4elpXRnlZMmg4/Tlh4OFpHRnlheVV5/TUhSb1pXMWxmR1Z1/ZkRCOGZEQjhmSHd3");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: cover; 
+    background-color: black;
+}
+
+.hero h1{
+    padding-top: 30px;
+    text-align: center;
+    background-size: cover; 
+    background-color: black;
+    color: white;
+    text-shadow: 0px 0px 10px rgb(240, 56, 56);
+    
+}
+
+.merchantsignup form{ 
+    display: grid;
+    grid-template-columns: 220px 220px;
+    box-shadow: 0px 0px 12px gray;
+    padding: 15px 50px;
+    border-radius: 10px;
+    font-family: cursive;
+    color: aliceblue;
+}
+
+.merchantsignup input,label{
+    margin: 10px 0px;
+    border: none;
+}   
+
+.merchantsignup input{
+    outline: none;
+    border-bottom: 2px solid gray;
+    background-color: rgb(30, 26, 26);
+    /* background: transparent; */
+    cursor: grab;
+    color: aliceblue;
+    outline: none;
+    /* border-bottom: 2px solid rgb(248, 247, 247); */
+    padding: 2px;
+}

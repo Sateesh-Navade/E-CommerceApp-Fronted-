@@ -1,0 +1,13 @@
+.userlogin {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: start;
+    height: 80vh;
+}
+.userlogin form{
+    box-shadow: 0px 0px 10px gray;
+    padding: 15px 50px;
+    border-radius: 10px;
+    font-family: cursive;
+}

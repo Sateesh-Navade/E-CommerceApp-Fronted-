@@ -1,0 +1,50 @@
+/* .ProductView {
+    height: 800px;
+    background-image: url("https://imgs.search.brave.com/IDpbvWKlCj4wxUUDUFKJNZZtSJvB_UR9ziVFNtSCCg0/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9pbWd2/My5mb3Rvci5jb20v/aW1hZ2VzL2dhbGxl/cnkvZmVhdHVyZS1i/YWNrZ3JvdW5kLWdh/bGxlcnktd29vZC02/LmpwZw");
+    background-repeat: no-repeat;
+    background-size: cover;
+} */
+
+.ProductView table {
+    display: flow-root;
+    /* grid-template-columns: 200px 200px; */
+    box-shadow: 0px 10px 10px grey;
+    padding: 10px 50px;
+    margin: 10px;
+    border: 0.1px solid rgba(66, 66, 66, 0.566);
+    border-radius: 10px;
+    font-family: cursive;
+    width: 90;
+}
+
+.ProductView {
+    flex-wrap: wrap;
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    /* margin: 20px; */
+    height: 80vh;
+}
+
+.ProductView input,
+label {
+    margin: 10px 0px;
+    border: none;
+}
+
+.ProductView input {
+    outline: none;
+    border-bottom: 2px solid black;
+}
+
+.ProductView button {
+    outline: none;
+    margin: 10px;
+}
+
+.ProductView .pic {
+    height: 250px;
+    width: 300px;
+    transform: translateX(120px);
+    border-radius: 20px;
+}

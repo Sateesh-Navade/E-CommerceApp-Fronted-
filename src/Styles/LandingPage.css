@@ -1,0 +1,30 @@
+
+.landingpage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    background-image: url("https://imgs.search.brave.com/EIHfIg-BZ9tNwwU36tXMW1BMuO63VaW8Op7TYWVK_Fs/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvMTU2/MDE0MjkyMy9waG90/by9vbmxpbmUtc2hv/cHBpbmctbW9kZXJu/LWJhY2tncm91bmQt/Z2xvd2luZy1zaG9w/cGluZy1jYXJ0LWlj/b24td2ViMy1jb2xv/dXJzLWNnaS0zZC1y/ZW5kZXIud2VicD9i/PTEmcz0xNzA2Njdh/Jnc9MCZrPTIwJmM9/eDdpR0t6U21WcDBJ/eXBWMDRGeFdGZW81/VlNreVNrRGlxUE1u/TVNPNjZWZz0");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.landingpage img{
+    height: 200px;
+    width: 200px;
+    margin: 20px 50px;
+    transition: .5s;
+}
+
+.landingpage img:hover{
+    transform: scale(1.2);
+}
+
+.landingpage a{
+    text-decoration: none;
+    font-size: larger;
+    color: black;
+    font-family: cursive;
+}
+
